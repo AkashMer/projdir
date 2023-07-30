@@ -18,6 +18,7 @@
 #'
 #' @return Status messages and a list containing the directory names in the
 #' topmost level if `returnList` is TRUE.
+#' @export
 
 createFramework <- function(..., returnList = FALSE, docs = FALSE) {
 
