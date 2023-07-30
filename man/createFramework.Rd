@@ -8,10 +8,10 @@ createFramework(..., returnList = FALSE, docs = FALSE)
 }
 \arguments{
 \item{...}{A character vector which contains PATHS to the desired
-subdirectories and files beyond the basic structure created}
+subdirectories and files beyond the basic structure created.}
 
 \item{returnList}{Logical value to indicate if a list containing the
-directory names in the root folder of the directory is to be returned
+directory names in the root folder of the directory is to be returned.
 (default = FALSE)}
 
 \item{docs}{Logical value to indicate if a docs subdirectory is required for
@@ -19,15 +19,15 @@ gh-pages website deployment. (default = FALSE)}
 }
 \value{
 Status messages and a list containing the directory names in the
-topmost level if \code{returnList} is TRUE
+topmost level if \code{returnList} is TRUE.
 }
 \description{
 Creates the following subdirectories by default if not already present
-in the working directory of the newly created R project
+in the working directory of the newly created R project.
 \itemize{
-\item data - to store all the data for your project
-\item R - to store all your R scripts and Rmarkdowns
-\item results - to store the results of your project
+\item data - to store all the data for your project.
+\item R - to store all your R scripts and Rmarkdowns.
+\item results - to store the results of your project.
 }
 }
 \examples{

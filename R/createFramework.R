@@ -2,22 +2,22 @@
 #'
 #' @description
 #' Creates the following subdirectories by default if not already present
-#' in the working directory of the newly created R project
+#' in the working directory of the newly created R project.
 #'
-#' * data - to store all the data for your project
-#' * R - to store all your R scripts and Rmarkdowns
-#' * results - to store the results of your project
+#' * data - to store all the data for your project.
+#' * R - to store all your R scripts and Rmarkdowns.
+#' * results - to store the results of your project.
 #'
 #' @param ... A character vector which contains PATHS to the desired
-#' subdirectories and files beyond the basic structure created
+#' subdirectories and files beyond the basic structure created.
 #' @param returnList Logical value to indicate if a list containing the
-#' directory names in the root folder of the directory is to be returned
+#' directory names in the root folder of the directory is to be returned.
 #' (default = FALSE)
 #' @param docs Logical value to indicate if a docs subdirectory is required for
 #' gh-pages website deployment. (default = FALSE)
 #'
 #' @return Status messages and a list containing the directory names in the
-#' topmost level if `returnList` is TRUE
+#' topmost level if `returnList` is TRUE.
 #' @export
 #'
 #' @examples
@@ -35,7 +35,7 @@ createFramework <- function(..., returnList = FALSE, docs = FALSE) {
 
     if(docs) dir.create("docs") # For gh-pages website
 
-    dir.create(...) # Creates any other desired subdirectories or files wanted
+    dir.create(path = "...") # Creates any other desired subdirectories or files wanted
     # by the user
 
     print("Your framework is ready")
