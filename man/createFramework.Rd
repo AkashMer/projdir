@@ -22,14 +22,12 @@ Status messages and a list containing the directory names in the
 topmost level if \code{returnList} is TRUE.
 }
 \description{
-Creates the following subdirectories by default if not already present
-in the working directory of the newly created R project.
+Convenience function that creates the following subdirectories
+by default if not already present in the working directory of the newly
+created R project.
 \itemize{
 \item data - to store all the data for your project.
 \item R - to store all your R scripts and Rmarkdowns.
 \item results - to store the results of your project.
 }
-}
-\examples{
-createFramework(returnList = TRUE, docs = TRUE)
 }

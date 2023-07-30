@@ -1,8 +1,8 @@
 #' Creates a basic framework for your new R project
 #'
-#' @description
-#' Creates the following subdirectories by default if not already present
-#' in the working directory of the newly created R project.
+#' @description Convenience function that creates the following subdirectories
+#' by default if not already present in the working directory of the newly
+#' created R project.
 #'
 #' * data - to store all the data for your project.
 #' * R - to store all your R scripts and Rmarkdowns.
@@ -18,10 +18,6 @@
 #'
 #' @return Status messages and a list containing the directory names in the
 #' topmost level if `returnList` is TRUE.
-#' @export
-#'
-#' @examples
-#' createFramework(returnList = TRUE, docs = TRUE)
 
 createFramework <- function(..., returnList = FALSE, docs = FALSE) {
 
