@@ -4,25 +4,25 @@
 \alias{createFramework}
 \title{Creates a basic framework for your new R project}
 \usage{
-createFramework(..., returnList = FALSE, docs = FALSE)
+createFramework(returnList = FALSE, docs = FALSE, x = NULL)
 }
 \arguments{
-\item{...}{A character vector which contains PATHS to the desired
-subdirectories and files beyond the basic structure created.}
-
 \item{returnList}{Logical value to indicate if a list containing the
 directory names in the root folder of the directory is to be returned.
 (default = FALSE)}
 
-\item{docs}{Logical value to indicate if a docs subdirectory is required for
+\item{docs}{Logical value to indicate if a docs sub-directory is required for
 gh-pages website deployment. (default = FALSE)}
+
+\item{x}{A character vector which contains PATHS to the desired
+sub-directories and files beyond the basic structure created. (default = NULL)}
 }
 \value{
 Status messages and a list containing the directory names in the
 topmost level if \code{returnList} is TRUE.
 }
 \description{
-Convenience function that creates the following subdirectories
+Convenience function that creates the following sub-directories
 by default if not already present in the working directory of the newly
 created R project.
 \itemize{
