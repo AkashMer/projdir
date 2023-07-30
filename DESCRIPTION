@@ -4,9 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Akash", "Mer", , "akashmer@gmail.com", role = c("aut", "cre"))
 Description: Convenience functions to create empty sub-directories and/or empty 
-files to represent a framework for a newly created R project
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    files to represent a framework for a newly created R project
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
