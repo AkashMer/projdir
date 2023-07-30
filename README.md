@@ -1,0 +1,31 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# projdir
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of **projdir** is to provide **convenience functions to
+streamline the** **process of early project development** in R focusing
+mainly on creation of blank sub-directories and files and thus creating
+a similar basic framework across different projects.
+
+## Installation
+
+You can install the development version of projdir from
+[GitHub](https://github.com/AkashMer/projdir) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("AkashMer/projdir")
+```
+
+## Example
+
+One of the functions are `createFramework()` which by default creates
+the following blank sub-directories if not already present,
+
+- **data** - to store all the data for your project.
+- **R** - to store all your R scripts and Rmarkdowns.
+- **results** - to store the results of your project.
